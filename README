@@ -1,0 +1,63 @@
+# QUE HACER EN EL SERVIDOR PARA QUE SUBA Y BAJE EL JSON
+
+ssh root@IP_SERVER
+
+# Crear carpeta
+mkdir -p /var/www/ais_data
+cd /var/www/ais_data
+
+# Crear el archivo serve.py AQUÍ (dentro de esta carpeta)
+cat > serve.py << 'EOF'
+#!/usr/bin/env python3
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+import os
+
+class MyHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        super().end_headers()
+
+os.chdir('/var/www/ais_data')
+server = HTTPServer(('0.0.0.0', 8080), MyHandler)
+print("Servidor AIS en puerto 8080")
+print("URL: http://IP_SERVER:8080/ais_config.json")
+server.serve_forever()
+EOF
+
+# Hacer ejecutable
+chmod +x serve.py
+
+# Verificar que está ahí
+ls -la serve.py
+
+# Estructura Final
+/var/www/ais_data/
+├── serve.py         ← Script del servidor (aquí)
+└── ais_config.json  ← El archivo JSON que subes desde PC local (aquí)
+
+# Cómo ejecutarlo en background:
+# Opción Screen
+
+ssh root@IP_SERVER
+
+# Crea una sesión de screen
+screen -S ais_server
+
+# Dentro de screen:
+cd /var/www/ais_data
+python3 serve.py
+
+# Presiona: Ctrl+A luego D (desconecta pero sigue corriendo)
+
+# Verificación rápida
+Para ver si el servidor está corriendo:
+
+# Ver procesos Python
+ps aux | grep serve.py
+
+# Ver qué corre en puerto 8080
+netstat -tlnp | grep 8080
+
+# Prueba de descarga (desde otra terminal)
+curl http://localhost:8080/ais_config.json
