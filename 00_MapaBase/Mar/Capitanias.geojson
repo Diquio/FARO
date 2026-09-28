@@ -1,0 +1,430 @@
+{
+  "type": "FeatureCollection",
+  "name": "Capitanias",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Pasaia",
+        "Latitud": 43.32044,
+        "Longitud": -1.917635,
+        "Telefono": "943 35 26 16",
+        "Localidad": "Pasaia",
+        "Provincia": "Guipuzcoa",
+        "CP": 20110,
+        "Direccion": "Pasajes-Puerto. Zona Portuaria"
+      },
+      "geometry": { "type": "Point", "coordinates": [-1.917635, 43.32044] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Bilbao",
+        "Latitud": 43.263538,
+        "Longitud": -2.929715,
+        "Telefono": "94 424 14 16",
+        "Localidad": "Bilbao",
+        "Provincia": "Bilbao",
+        "CP": 48009,
+        "Direccion": "Iba�ez de Bilbao, 24"
+      },
+      "geometry": { "type": "Point", "coordinates": [-2.929715, 43.263538] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Santander",
+        "Latitud": 43.453245,
+        "Longitud": -3.816579,
+        "Telefono": "942 36 14 64",
+        "Localidad": "Santander",
+        "Provincia": "Cantabria",
+        "CP": 39071,
+        "Direccion": "Carlos Haya, 23"
+      },
+      "geometry": { "type": "Point", "coordinates": [-3.816579, 43.453245] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Gij�n",
+        "Latitud": 43.544993,
+        "Longitud": -5.701539,
+        "Telefono": "98 530 00 85",
+        "Localidad": "Gij�n",
+        "Provincia": "Asturias",
+        "CP": 33290,
+        "Direccion": "Puerto de El Musel, s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.701539, 43.544993] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Avil�s",
+        "Latitud": 43.565067,
+        "Longitud": -5.922156,
+        "Telefono": "98 552 58 64",
+        "Localidad": "Avil�s",
+        "Provincia": "Asturias",
+        "CP": 33400,
+        "Direccion": "Avda. de la Industria, 100"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.922156, 43.565067] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Burela",
+        "Latitud": 43.660126,
+        "Longitud": -7.358197,
+        "Telefono": "982 57 51 53",
+        "Localidad": "Burela",
+        "Provincia": "Lugo",
+        "CP": 27880,
+        "Direccion": "R�a do Porto, 29-31"
+      },
+      "geometry": { "type": "Point", "coordinates": [-7.358197, 43.660126] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Ferrol",
+        "Latitud": 43.479516,
+        "Longitud": -8.244737,
+        "Telefono": "981 36 40 55",
+        "Localidad": "Ferrol",
+        "Provincia": "A Coru�a",
+        "CP": 15401,
+        "Direccion": "Muelle Comercial, s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.244737, 43.479516] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a A Coru�a",
+        "Latitud": 43.367146,
+        "Longitud": -8.380313,
+        "Telefono": "981 22 04 55",
+        "Localidad": "A Coru�a",
+        "Provincia": "A Coru�a",
+        "CP": 15001,
+        "Direccion": "Dique Barri� de la Maza s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.380313, 43.367146] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Vilagarc�a de Arousa",
+        "Latitud": 42.593497,
+        "Longitud": -8.776222,
+        "Telefono": "986 56 53 14",
+        "Localidad": "Vilagarc�a de Arousa",
+        "Provincia": "Pontevedra",
+        "CP": 36600,
+        "Direccion": "Rua V�a de Enlace, 26"
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.776222, 42.593497] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Vigo",
+        "Latitud": 42.236444,
+        "Longitud": -8.729029,
+        "Telefono": "986 43 28 66",
+        "Localidad": "Vigo",
+        "Provincia": "Pontevedra",
+        "CP": 36201,
+        "Direccion": "Muelle Trasatl�nticos. Estaci�n Maritima, ala sur, 1��Planta"
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.729029, 42.236444] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Huelva",
+        "Latitud": 37.254192,
+        "Longitud": -6.958222,
+        "Telefono": "959 54 17 00",
+        "Localidad": "Huelva",
+        "Provincia": "Huelva",
+        "CP": 21071,
+        "Direccion": "Sanl�car de Barrameda, 9"
+      },
+      "geometry": { "type": "Point", "coordinates": [-6.958222, 37.254192] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Sevilla",
+        "Latitud": 37.356588,
+        "Longitud": -5.989836,
+        "Telefono": "954 29 82 71",
+        "Localidad": "Sevilla",
+        "Provincia": "Sevilla",
+        "CP": 41012,
+        "Direccion": "Avda. Guadalhorce, s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.989836, 37.356588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a C�diz",
+        "Latitud": 36.774671,
+        "Longitud": -6.346068,
+        "Telefono": "956 22�27 60",
+        "Localidad": "C�diz",
+        "Provincia": "C�diz",
+        "CP": 11006,
+        "Direccion": "Muelle Alfonso XIII, S/N"
+      },
+      "geometry": { "type": "Point", "coordinates": [-6.346068, 36.774671] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Algeciras",
+        "Latitud": 36.124886,
+        "Longitud": -5.442259,
+        "Telefono": "956 60�23 32",
+        "Localidad": "Algeciras",
+        "Provincia": "C�diz",
+        "CP": 11207,
+        "Direccion": "Avenida de la Hispanidad s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.442259, 36.124886] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Ceuta",
+        "Latitud": 35.894827,
+        "Longitud": -5.321662,
+        "Telefono": "856 20 50 23",
+        "Localidad": "Ceuta",
+        "Provincia": "Ceuta",
+        "CP": 51001,
+        "Direccion": "Muelle Espa�a s/n, Estaci�n Mar�tima Puerto"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.321662, 35.894827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a M�laga",
+        "Latitud": 36.708728,
+        "Longitud": -4.43301,
+        "Telefono": "95 260 14 78",
+        "Localidad": "M�laga",
+        "Provincia": "M�laga",
+        "CP": 29001,
+        "Direccion": "Plaza Poeta Alfonso Canales, 2"
+      },
+      "geometry": { "type": "Point", "coordinates": [-4.43301, 36.708728] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Motril",
+        "Latitud": 36.718435,
+        "Longitud": -3.522246,
+        "Telefono": "958 60 10 87",
+        "Localidad": "Motril",
+        "Provincia": "Granada",
+        "CP": 18613,
+        "Direccion": "Muelle de Poniente, s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-3.522246, 36.718435] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Almer�a",
+        "Latitud": 36.834038,
+        "Longitud": -2.46449,
+        "Telefono": "950 27 12 48",
+        "Localidad": "Almer�a",
+        "Provincia": "Almer�a",
+        "CP": 4007,
+        "Direccion": "Muelle de Levante, S/N"
+      },
+      "geometry": { "type": "Point", "coordinates": [-2.46449, 36.834038] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Cartagena",
+        "Latitud": 37.59856,
+        "Longitud": -0.978711,
+        "Telefono": "968 52 19 16",
+        "Localidad": "Cartagena",
+        "Provincia": "Cartagena",
+        "CP": 30201,
+        "Direccion": "Pez Espada, 1"
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.978711, 37.59856] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Alicante",
+        "Latitud": 38.344972,
+        "Longitud": -0.486863,
+        "Telefono": "965 92 37 70",
+        "Localidad": "Alicante",
+        "Provincia": "Alicante",
+        "CP": 3001,
+        "Direccion": "Muelle de Poniente s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.486863, 38.344972] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Valencia",
+        "Latitud": 39.474451,
+        "Longitud": -0.329702,
+        "Telefono": "96 367 86 77",
+        "Localidad": "Valencia",
+        "Provincia": "Valencia",
+        "CP": 46024,
+        "Direccion": "Acceso Sur, s/n. Puerto de Valencia"
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.329702, 39.474451] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Castell�n",
+        "Latitud": 39.972125,
+        "Longitud": 0.020306,
+        "Telefono": "964 73 73 00",
+        "Localidad": "Grao",
+        "Provincia": "Castell�n",
+        "CP": 12100,
+        "Direccion": "Avda. Interior s/n, Puerto Castell�n"
+      },
+      "geometry": { "type": "Point", "coordinates": [0.020306, 39.972125] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Tarragona",
+        "Latitud": 41.107083,
+        "Longitud": 1.25186,
+        "Telefono": "977 24 09 55",
+        "Localidad": "Tarragona",
+        "Provincia": "Tarragona",
+        "CP": 43071,
+        "Direccion": "Arranque Rompeolas, S/N"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.25186, 41.107083] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Barcelona",
+        "Latitud": 41.333506,
+        "Longitud": 2.127862,
+        "Telefono": "93 223 42 75",
+        "Localidad": "Barcelona",
+        "Provincia": "Barcelona",
+        "CP": 8040,
+        "Direccion": "Ctra. de Circunvalaci�n Tramo VI, Recinto Portuario"
+      },
+      "geometry": { "type": "Point", "coordinates": [2.127862, 41.333506] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Palam�s",
+        "Latitud": 41.861289,
+        "Longitud": 3.135401,
+        "Telefono": "972 31 40 70",
+        "Localidad": "Palam�s",
+        "Provincia": "Girona",
+        "CP": 17230,
+        "Direccion": "Puerto, s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [3.135401, 41.861289] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Palma de Mallorca",
+        "Latitud": 39.567821,
+        "Longitud": 2.645261,
+        "Telefono": "971 71 13 71",
+        "Localidad": "Palma de Mallorca",
+        "Provincia": "Baleares",
+        "CP": 7012,
+        "Direccion": "Muelle Viejo, 1"
+      },
+      "geometry": { "type": "Point", "coordinates": [2.645261, 39.567821] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Eivissa/ Formentera",
+        "Latitud": 38.91648,
+        "Longitud": 1.44084,
+        "Telefono": "971 19 20 59",
+        "Localidad": "Ibiza",
+        "Provincia": "Baleares",
+        "CP": 7800,
+        "Direccion": "Acceso Muelle Norte s/n"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.44084, 38.91648] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Tenerife",
+        "Latitud": 28.291564,
+        "Longitud": -16.62913,
+        "Telefono": "922 59 73 64",
+        "Localidad": "Santa Cruz de Tenerife",
+        "Provincia": "Tenerife",
+        "CP": 38071,
+        "Direccion": "V�a de Servicio Paso Alto, 4"
+      },
+      "geometry": { "type": "Point", "coordinates": [-16.62913, 28.291564] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Las Palmas",
+        "Latitud": 28.149925,
+        "Longitud": -15.417159,
+        "Telefono": "928 46 82 89",
+        "Localidad": "Las Palmas",
+        "Provincia": "Gran Canaria",
+        "CP": 35008,
+        "Direccion": "Edificio de la Autoridad Portuaria. Explanada de Tom�s Quevedo, s/n 1� planta. Muelle de Rivera�"
+      },
+      "geometry": { "type": "Point", "coordinates": [-15.417159, 28.149925] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Capitania": "Capitan�a Melilla",
+        "Latitud": 35.292984,
+        "Longitud": -2.934356,
+        "Telefono": "952 68 07 16",
+        "Localidad": "Melilla",
+        "Provincia": "Melilla",
+        "CP": 52071,
+        "Direccion": "Muelle Ribera, s/n, Edificio CCS, 2� planta"
+      },
+      "geometry": { "type": "Point", "coordinates": [-2.934356, 35.292984] }
+    }
+  ]
+}
