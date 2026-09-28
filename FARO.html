@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FARO</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css"
+    />
+    <link rel="stylesheet" href="FARO_styles.css" />
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <div id="vessel-filter-panel" class="hidden">
+      <h3>Filtros AIS</h3>
+
+      <label>
+        <input type="checkbox" checked data-layer="salvamar" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#ff6600"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Salvamares
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="Buque_Polivalente" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#F5DD27"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Buques Polivalentes
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="helicoptero" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#00aa00"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Helicópteros
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="remolcador" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#07fff3"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Remolcadores
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="pesquero" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#8000ff"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Pesqueros
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="cargo" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#80f180"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Cargo Vessels
+      </label>
+
+      <label>
+        <input type="checkbox" checked data-layer="tanker" />
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M12 1 L21 23 L12 18 L3 23 Z"
+            fill="#ff0000"
+            stroke="#000"
+            stroke-width="1"
+          />
+        </svg>
+        Tankers
+      </label>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+    <script type="module" src="FARO_js.js"></script>
+  </body>
+</html>
